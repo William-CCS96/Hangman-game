@@ -341,7 +341,7 @@ def run():
 
         replace_letter(letter,word,line_word)
         
-        if "_" not in line_word:
+        if "-" not in line_word:
             os.system("cls")
             print("   \n",word)
             print(winner)
