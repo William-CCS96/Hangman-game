@@ -324,7 +324,7 @@ def run():
     read_wors_file()
 
     word=secret_word()
-    line_word=["_" for i in range(len(word)-1)]
+    line_word=["_ " for i in range(len(word)-1)]
     line_word="".join(line_word)
     # print("_ "*(len(word)-1),"\n")
     
